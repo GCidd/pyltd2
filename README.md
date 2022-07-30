@@ -1,5 +1,8 @@
-# Data acquisition
-If you want to fetch match history data from Legion TD 2's servers by yourself, you can use the LTD2ApiFetcher object.
+# pyltd2
+
+Client package for the download of Legion TD 2 game data. 
+
+# Data structure
 The object stores the data into five separate objects, regarding separate information about each match:
 1. <details><summary>The fighters the player built during each wave and their position</summary>(_id, playerId, wave, fighter, x, y, seq_num)</details>
 2. <details><summary>The actions (Placed/Sold/Upgraded) the player made during each wave (alternative to the previous one, makes the file smaller but requires re-building the data)</summary>(_id, playerId, wave, fighter, x, y, action, seq_num)</details>
@@ -14,7 +17,7 @@ The object stores the data into five separate objects, regarding separate inform
 11. <details><summary>The player's economy during each wave</summary>(_id, playerId, wave, workers, income, networth)</details>
 12. <details><summary>The spell upgrades available in the match</summary>(_id, choice_1, choice_2, choice_3)</details>
 
-
+# Examples
 The following example shows how to get the details of the next 50 matches, starting from the first match played (2018-08-03T15:39:00Z) and returning the data as a DataFrame object.
 ```
 fetcher = LTD2ApiFetcher("your_api_token")
