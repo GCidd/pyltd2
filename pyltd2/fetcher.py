@@ -13,9 +13,9 @@ from tqdm import tqdm
 from .offset_iterator import OffsetIterator
 from ._constants import SORTBY_DATE, SORT_ASCEND, FIRST_MATCH_DATE, QTYPE_NORM, MAX_OFFSET
 from ._constants import MATCH, PLAYER, PARTY, FIGHTERS, ROLLS, SPELLS, KINGS_HPS, KINGS_UPGRADES, PLAYER_WAVES, MERCENARIES, LEAKS, BUILDS, DELTA_BUILDS
-from exceptions import EntryNotFoundError, ForbiddenError, LimitExceededError, RequestValueError, RequestError, WaitInterruptedError, TooManyRequestsError
-from utils import segmented_wait, simplify_version, builds_delta, place_fighters
-from logger import Log
+from .exceptions import EntryNotFoundError, ForbiddenError, LimitExceededError, RequestValueError, RequestError, WaitInterruptedError, TooManyRequestsError
+from .utils import segmented_wait, simplify_version, builds_delta, place_fighters
+from .logger import Log
 
 
 class LTD2Fetcher:

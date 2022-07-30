@@ -17,11 +17,19 @@ The object stores the data into five separate objects, regarding separate inform
 11. <details><summary>The player's economy during each wave</summary>(_id, playerId, wave, workers, income, networth)</details>
 12. <details><summary>The spell upgrades available in the match</summary>(_id, choice_1, choice_2, choice_3)</details>
 
+# Dependencies
+
+pyltd2 requires:
+
+* numpy ()>= 1.14.6)
+* pandas (>= 1.4.3)
+* tqdm (>= 4.64.0)
+
 # Examples
 The following example shows how to get the details of the next 50 matches, starting from the first match played (2018-08-03T15:39:00Z) and returning the data as a DataFrame object.
 ```
 fetcher = LTD2ApiFetcher("your_api_token")
-fetcher.get_games(return_as_df=True)
+fetcher.get(return_as_df=True)
 ```
 The object uses the [getMatchesByFilter](https://swagger.legiontd2.com/#/Games/getMatchesByFilter) API command to fetch a maximum of 50 matches, starting from the date_after datetime provided.
 

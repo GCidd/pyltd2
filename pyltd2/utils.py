@@ -3,7 +3,7 @@ from typing import List, Tuple
 import numpy as np
 from pandas import DataFrame
 
-from exceptions import WaitInterruptedError
+from .exceptions import WaitInterruptedError
 
 def segmented_wait(wait_time: int) -> None:
     """
@@ -36,7 +36,7 @@ def simplify_version(version: str) -> float:
         float: 
             Version in float type.
     """
-    # skip first char ('v') -> split on '.' -> take first 2 parts -> join on '.' -> keep minor 
+    # skip first char ('v') -> split on '.' -> take first 2 parts -> join with '.' -> keep minor until minor version
     return float(
         ".".join(
             version[1:].split(".")[:2]
