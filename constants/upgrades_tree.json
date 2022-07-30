@@ -1,0 +1,244 @@
+{
+    "angler_unit_id": [
+        "angler_unit_id",
+        "bounty_hunter_unit_id",
+        "kingpin_unit_id"
+    ],
+    "antler_unit_id": [
+        "antler_unit_id",
+        "whitemane_unit_id"
+    ],
+    "aps_unit_id": [
+        "aps_unit_id",
+        "mps_unit_id"
+    ],
+    "aqua_spirit_unit_id": [
+        "aqua_spirit_unit_id",
+        "fire_elemental_unit_id",
+        "rogue_wave_unit_id"
+    ],
+    "banana_bunk_unit_id": [
+        "banana_bunk_unit_id",
+        "banana_haven_unit_id"
+    ],
+    "bazooka_unit_id": [
+        "bazooka_unit_id",
+        "pyro_unit_id",
+        "zeus_unit_id"
+    ],
+    "berserker_unit_id": [
+        "berserker_unit_id",
+        "fatalizer_unit_id"
+    ],
+    "bone_warrior_unit_id": [
+        "bone_warrior_unit_id",
+        "bone_crusher_unit_id",
+        "dark_mage_unit_id",
+        "fire_archer_unit_id"
+    ],
+    "butcher_unit_id": [
+        "butcher_unit_id",
+        "head_chef_unit_id"
+    ],
+    "buzz_unit_id": [
+        "buzz_unit_id",
+        "consort_unit_id"
+    ],
+    "chained_fist_unit_id": [
+        "chained_fist_unit_id",
+        "oathbreaker_unit_id"
+    ],
+    "chaos_hound_harbinger_unit_id": [
+        "chaos_hound_harbinger_unit_id"
+    ],
+    "chaos_hound_unit_id": [
+        "chaos_hound_unit_id"
+    ],
+    "desert_pilgrim_unit_id": [
+        "desert_pilgrim_unit_id",
+        "lost_chieftain_unit_id"
+    ],
+    "disciple_unit_id": [
+        "disciple_unit_id",
+        "starcaller_unit_id"
+    ],
+    "eggsack_unit_id": [
+        "eggsack_unit_id"
+    ],
+    "elite_archer_unit_id": [
+        "elite_archer_unit_id",
+        "trinity_archer_unit_id"
+    ],
+    "elite_hellion_unit_id": [
+        "elite_hellion_unit_id"
+    ],
+    "elite_nightcrawler_unit_id": [
+        "elite_nightcrawler_unit_id"
+    ],
+    "eternal_wanderer_unit_id": [
+        "eternal_wanderer_unit_id",
+        "samurai_soul_unit_id"
+    ],
+    "fire_lord_unit_id": [
+        "fire_lord_unit_id",
+        "fenix_unit_id"
+    ],
+    "gargoyle_unit_id": [
+        "gargoyle_unit_id",
+        "green_devil_unit_id"
+    ],
+    "gateguard_unit_id": [
+        "gateguard_unit_id",
+        "harbinger_unit_id"
+    ],
+    "gatling_gun_unit_id": [
+        "gatling_gun_unit_id",
+        "vulcan_cannon_unit_id"
+    ],
+    "golden_buckler_unit_id": [
+        "golden_buckler_unit_id",
+        "royal_guard_unit_id"
+    ],
+    "grarl_unit_id": [
+        "grarl_unit_id",
+        "king_claw_unit_id",
+        "ocean_templar_unit_id"
+    ],
+    "great_boar_unit_id": [
+        "great_boar_unit_id",
+        "red_eyes_unit_id"
+    ],
+    "harpy_unit_id": [
+        "harpy_unit_id",
+        "sky_queen_unit_id"
+    ],
+    "hellion_unit_id": [
+        "hellion_unit_id"
+    ],
+    "holy_avenger_unit_id": [
+        "holy_avenger_unit_id",
+        "sovereign_unit_id"
+    ],
+    "honeyflower_unit_id": [
+        "honeyflower_unit_id",
+        "deathcap_unit_id"
+    ],
+    "hydra_unit_id": [
+        "hydra_unit_id"
+    ],
+    "hydraling_unit_id": [
+        "hydraling_unit_id"
+    ],
+    "infiltrator_unit_id": [
+        "infiltrator_unit_id",
+        "orchid_unit_id"
+    ],
+    "looter_unit_id": [
+        "looter_unit_id",
+        "pack_rat_unit_id"
+    ],
+    "lord_of_death_unit_id": [
+        "lord_of_death_unit_id",
+        "hades_unit_id"
+    ],
+    "masked_spirit_unit_id": [
+        "masked_spirit_unit_id",
+        "false_maiden_unit_id",
+        "hell_raiser_unit_id"
+    ],
+    "millennium_unit_id": [
+        "millennium_unit_id",
+        "doomsday_machine_unit_id"
+    ],
+    "mudman_unit_id": [
+        "mudman_unit_id",
+        "golem_unit_id"
+    ],
+    "nekomata_unit_id": [
+        "nekomata_unit_id"
+    ],
+    "nightcrawler_unit_id": [
+        "nightcrawler_unit_id"
+    ],
+    "nightmare_unit_id": [
+        "nightmare_unit_id",
+        "doppelganger_unit_id"
+    ],
+    "peewee_unit_id": [
+        "peewee_unit_id",
+        "veteran_unit_id"
+    ],
+    "pollywog_unit_id": [
+        "pollywog_unit_id",
+        "devilfish_unit_id",
+        "seraphin_unit_id"
+    ],
+    "priestess_of_the_abyss_unit_id": [
+        "priestess_of_the_abyss_unit_id",
+        "azeria_unit_id"
+    ],
+    "proton_unit_id": [
+        "proton_unit_id",
+        "atom_unit_id"
+    ],
+    "radiant_halo_unit_id": [
+        "radiant_halo_unit_id",
+        "arc_of_justice_unit_id"
+    ],
+    "ranger_unit_id": [
+        "ranger_unit_id",
+        "daphne_unit_id"
+    ],
+    "sacred_steed_unit_id": [
+        "sacred_steed_unit_id",
+        "pegasus_unit_id"
+    ],
+    "sand_badger_unit_id": [
+        "sand_badger_unit_id",
+        "iron_scales_unit_id"
+    ],
+    "sea_serpent_unit_id": [
+        "sea_serpent_unit_id",
+        "deepcoiler_unit_id"
+    ],
+    "seadragon_unit_id": [
+        "seadragon_unit_id",
+        "lifebinder_unit_id"
+    ],
+    "seedling_unit_id": [
+        "seedling_unit_id",
+        "chloropixie_unit_id",
+        "sakura_unit_id"
+    ],
+    "soul_gate_unit_id": [
+        "soul_gate_unit_id",
+        "hell_gate_unit_id"
+    ],
+    "tempest_unit_id": [
+        "tempest_unit_id",
+        "leviathan_unit_id"
+    ],
+    "thanatos_unit_id": [
+        "thanatos_unit_id"
+    ],
+    "undead_dragon_unit_id": [
+        "undead_dragon_unit_id"
+    ],
+    "warg_unit_id": [
+        "warg_unit_id",
+        "alpha_male_unit_id",
+        "lioness_unit_id"
+    ],
+    "wileshroom_unit_id": [
+        "wileshroom_unit_id",
+        "canopie_unit_id"
+    ],
+    "windhawk_unit_id": [
+        "windhawk_unit_id",
+        "violet_unit_id"
+    ],
+    "yozora_unit_id": [
+        "yozora_unit_id",
+        "arctaire_unit_id"
+    ]
+}
