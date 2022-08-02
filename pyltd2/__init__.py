@@ -8,7 +8,7 @@ from ._constants import MATCH, PLAYER, PARTY, FIGHTERS, SPELLS, KINGS_HPS, KINGS
     PLAYER_WAVES, MERCENARIES, LEAKS, BUILDS
 
 
-__version__ = "1.0.0-rc"
+__version__ = "1.0.1-rc"
 
 __all__ = [
     "FIRST_MATCH_DATE",

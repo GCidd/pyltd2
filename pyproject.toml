@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyltd2"
-version = "1.0.0-rc"
+version = "1.0.1-rc"
 description = "Client package for the download of Legion TD 2 game data."
 authors = ["GCidd"]
 license = "MIT"
