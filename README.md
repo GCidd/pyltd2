@@ -2,6 +2,22 @@
 
 Client package for the download of Legion TD 2 game data. 
 
+# Installation
+
+## Dependencies
+
+* numpy (>= 1.16.5)
+* pandas (>= 1.2.0)
+* tqdm (>= 4.64.0)
+* requests (>= 2.1.0)
+
+--- 
+
+`pyltdq2` can be installed using pip with the following command:
+```
+pip install pyltd2
+```
+
 # Data structure
 The object stores the data into five separate objects, regarding separate information about each match:
 1. <details><summary>The fighters the player built during each wave and their position</summary>(_id, playerId, wave, fighter, x, y, seq_num)</details>
@@ -17,18 +33,12 @@ The object stores the data into five separate objects, regarding separate inform
 11. <details><summary>The player's economy during each wave</summary>(_id, playerId, wave, workers, income, networth)</details>
 12. <details><summary>The spell upgrades available in the match</summary>(_id, choice_1, choice_2, choice_3)</details>
 
-# Dependencies
-
-pyltd2 requires:
-
-* numpy ()>= 1.14.6)
-* pandas (>= 1.4.3)
-* tqdm (>= 4.64.0)
-
 # Examples
 The following example shows how to get the details of the next 50 matches, starting from the first match played (2018-08-03T15:39:00Z) and returning the data as a DataFrame object.
 ```
-fetcher = LTD2ApiFetcher("your_api_token")
+from pyltd2 import LTD2Fetcher
+
+fetcher = LTD2Fetcher("your_api_token")
 fetcher.get(return_as_df=True)
 ```
 The object uses the [getMatchesByFilter](https://swagger.legiontd2.com/#/Games/getMatchesByFilter) API command to fetch a maximum of 50 matches, starting from the date_after datetime provided.
@@ -37,7 +47,7 @@ To download data for the period of time between date_after-date_before and save 
 The following example downloads matches from 2018-08-03T15:39:00Z until 2019-12-25T22:03:40Z and saves the data to csv files inside the data folder.
 ```
 from datetime import datetime
-from data_acquisition import LTD2Fetcher, ExhaustiveFetcher
+from pyltd2 import LTD2Fetcher, ExhaustiveFetcher
 
 fetcher = LTD2Fetcher(
     "your_api_token", 
