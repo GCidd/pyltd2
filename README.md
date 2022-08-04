@@ -1,6 +1,6 @@
 # pyltd2
 
-Client package for the download of Legion TD 2 game data. 
+Client package for the download of [Legion TD 2](https://beta.legiontd2.com/) game data. 
 
 # Installation
 
@@ -13,7 +13,7 @@ Client package for the download of Legion TD 2 game data.
 
 --- 
 
-`pyltdq2` can be installed using pip with the following command:
+`pyltd2` can be installed using pip with the following command:
 ```
 pip install pyltd2
 ```
@@ -58,4 +58,12 @@ api2csv = ExhaustiveFetcher("./data", fetcher=fetcher)
 api2csv.start_fetching()
 ```
 
+# Additional info
+
+## API key
 You can get your own api token by registering [here](https://developer.legiontd2.com/home).
+
+## Request limit
+
+There is a limit of 15 requests per second and 10k requests per day.
+For more information you can check their [Swagger](https://swagger.legiontd2.com/) and their [Discord Server](https://discord.gg/4K4xwCz2DN).
